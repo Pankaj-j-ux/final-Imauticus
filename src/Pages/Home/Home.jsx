@@ -10,9 +10,9 @@ function Home() {
     <>
       <div className="home_body">
         <p>Welcome to Imarticus Learnings</p>
-        <Link to={`/dashboard/courses`} className="home_btn">
+        {/* <Link to={`/dashboard/courses`} className="home_btn">
           Go To Dashboard
-        </Link>
+        </Link> */}
         <Auth />
       </div>
     </>
