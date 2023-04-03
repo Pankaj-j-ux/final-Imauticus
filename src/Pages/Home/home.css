@@ -1,0 +1,123 @@
+/** @format */
+
+.home_body {
+  background-color: #055646;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home_body > p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+.home_btn {
+  text-decoration: none;
+  color: #fff;
+  border: #fff 2px solid;
+
+  padding: 10px 30px;
+  transition: all 0.35s cubic-bezier(1, 0, 0, 1);
+  margin-bottom: 20px;
+}
+
+.home_btn:hover {
+  background-color: #fff;
+  border: #055646 2px solid;
+  color: #055646;
+}
+
+.login-card {
+  padding: 10px;
+}
+
+.part1 {
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.entry > input {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.808);
+  border: none;
+  color: black;
+  height: 35px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form > h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.entry {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.sbutton {
+  height: 36px;
+  width: 150px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #ffffff85;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.msg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.msg > span:nth-child(2) {
+  cursor: pointer;
+}
+
+.msg > span > b {
+  margin-left: 10px;
+}
+
+.googlbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.googlbtn > p {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.googlbtn > button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+}

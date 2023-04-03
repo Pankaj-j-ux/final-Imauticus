@@ -1,0 +1,191 @@
+/** @format */
+
+@import url("../Dashboard/Dashboard.css");
+
+.down_header {
+  padding: 10px 60px;
+}
+
+.below_header > .blind {
+  height: 40px;
+  border-bottom: 1.5px solid rgba(33, 42, 57, 0.15);
+  margin: 12px;
+  font-size: 14px;
+  padding-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.play_btn {
+  background-color: rgba(255, 0, 0, 0.849);
+  border: white solid 1px;
+  color: whitesmoke;
+  outline: none;
+  padding: 1px 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.course_overview {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  border-bottom: #4f5c592c 1px solid;
+}
+
+.course_overview > img {
+  width: 250px;
+  border-radius: 5px;
+}
+
+.course_overview > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.course_overview > div > div:nth-child(1) {
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+}
+
+.course_overview > div > div:nth-child(2) {
+  color: #055646;
+  background-color: rgba(5, 86, 70, 0.1);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px;
+}
+
+@media (max-width: 1135px) {
+  .course_overview > img {
+    width: 200px;
+  }
+
+  .course_overview > div > div:nth-child(1) {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+  }
+
+  .course_overview > div > div:nth-child(2) {
+    color: #055646;
+    background-color: rgba(5, 86, 70, 0.1);
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .course_overview {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+
+    border-bottom: #4f5c592c 1px solid;
+  }
+}
+
+@media (max-width: 510px) {
+  .course_overview > div > div:nth-child(1) {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+  }
+
+  .course_overview > div > div:nth-child(2) {
+    color: #055646;
+    background-color: rgba(5, 86, 70, 0.1);
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 8px;
+  }
+}
+
+.title_box {
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+  box-shadow: 1px 2px 5px;
+  cursor: pointer;
+}
+
+.title_box > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: 18px;
+  color: black;
+}
+
+.title_box > div:nth-child(1) > button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 22px;
+  outline: none;
+  background-color: #fff;
+  color: #055646;
+  border: #055646 solid 1px;
+  cursor: pointer;
+}
+
+.title_box > div:nth-child(2) {
+  font-size: 14px;
+}
+
+.subtitle_box {
+  background-color: #fff;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+  cursor: pointer;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(2, 0, 0, 0.712);
+}
+
+.video_main {
+  width: 80%;
+  height: 80%;
+}
+
+.video_close_btn {
+  z-index: 2;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid;
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  margin-bottom: 20px;
+}
